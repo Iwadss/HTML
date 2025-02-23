@@ -11,7 +11,7 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
 
     if (username === validUsername && password === validPassword) {
         alert("Login successful!");
-        window.location.href = "/page/dashboard.html";
+        window.location.href = "https://github.com/Iwadss/HTML/blob/main/page/dashboard.html";
     } else {
         errorMessage.textContent = "Invalid username or password!";
     }
